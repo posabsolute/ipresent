@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<iPresent>
+	
+	<!-- The debug mode will show link zones -->
+	<debug mode="false"></debug>
+	
+	<!-- Your dock icon on the iphone -->
+	<dockIcon src="jqtouch.png"></dockIcon>	
+	<size width="320px"></size>	
+	
+	<!-- Your Startup Screen when your presentation is loading -->
+	<startupScreen src="loader.jpg"></startupScreen>	
+	
+	<!--Do you have images for the horizontal mode? -->
+	<screenOrientationChange mode="false"></screenOrientationChange>
+	
+	<!--This is how you include a mockup -->
+	<interface id="main" src="cherry/Login.png" horizontal="cherry/Login.png">
+		<!--This is how you include links -->
+		<links href="reports" animation="slide" style="top: 387px; left:10px; width: 300px; height: 50px;"></links>
+	</interface>
+
+	<interface id="menu" src="cherry/menuFull.jpg" horizontal="cherry/menuFull.jpg">
+		<!--This is how you include links -->
+		<links href="contacts" animation="slide" style="top: 0px; left:0px; width: 100px; height: 100px;"></links>
+		<links href="draft" animation="slide" style="top: 100px; left:0px; width: 100px; height: 100px;"></links>
+		<links href="reports" animation="slide" style="top: 200px; left:0px; width: 100px; height: 100px;"></links>
+		<links href="outbox" animation="slide" style="top: 300px; left:0px; width: 100px; height: 100px;"></links>
+		<links href="main" animation="cube" style="top: 400px; left:0px; width: 100px; height: 100px;"></links>
+	</interface>
+
+	
+	<interface id="reports" src="cherry/Sent.png" horizontal="cherry/Sent.png">
+		<links href="menu" animation="fade" style="top: 6px; left: 5px; width: 41px; height: 30px;"></links>
+		<links href="sent_details" animation="slide" style="top: 180px; left: 0; width: 321px; height: 384px;"></links>
+	</interface>
+	
+	<interface id="sent_details" src="cherry/Sent_Details.png" horizontal="cherry/Sent_Details.png">
+			<links href="menu" animation="fade" style="top: 6px; left: 5px; width: 41px; height: 30px;"></links>
+	</interface>
+	<interface id="sent_details_suspend" src="cherry/Sent_Details_Suspend.png" horizontal="cherry/Sent_Details_Suspend.png">
+		<links href="menu" animation="fade" style="top: 6px; left: 5px; width: 41px; height: 30px;"></links>
+	</interface>
+
+	<interface id="draft" src="cherry/Drafts.png" horizontal="cherry/Drafts.png">
+			<links href="menu" animation="fade" style="top: 6px; left: 5px; width: 41px; height: 30px;"></links>
+			<links href="sendnow" animation="fade" style="top: 6px; left: 275px; width: 35px; height: 30px;"></links>
+	</interface>
+	<interface id="sendnow" src="cherry/Contacts_Send_Now.png" horizontal="cherry/Contacts_Send_Now.png">
+		<links href="sent_details_suspend" animation="fade" style="top: 306px; left: 5px; width: 300px; height: 40px;"></links>
+	</interface>
+	<interface id="outbox" src="cherry/Outbox.png" horizontal="cherry/Outbox.png">
+			<links href="menu" animation="fade" style="top: 6px; left: 5px; width: 41px; height: 30px;"></links>
+			<links href="sent_details_suspend" animation="slide" style="top: 42px; left:0px; width: 310px; height: 320px;"></links>
+			<links href="sent_details" animation="slide" style="top: 380px; left: 0; width: 318px; height: 184px;"></links>
+	</interface>
+	<interface id="contacts" src="cherry/Contacts_list.png" horizontal="cherry/Contacts_list.png">
+		<links href="menu" animation="fade" style="top: 6px; left: 5px; width: 41px; height: 30px;"></links>
+		<links href="sent_details" animation="slide" style="top: 200px; left: 0; width: 321px; height: 364px;"></links>
+		<links href="contacts_add" animation="fade" style="top: 6px; left: 275px; width: 41px; height: 30px;"></links>
+	</interface>
+	<interface id="contacts_add" src="cherry/Contacts_ListDetails_AddSubscriber.png" horizontal="cherry/Contacts_ListDetails_AddSubscriber.png">
+		<links href="contacts_add_success" animation="fade" style="top: 269px; left:10px; width: 300px; height: 50px;"></links>
+	</interface>
+	<interface id="contacts_add_success" src="cherry/Contacts_ListDetails_AddSubscriber_Success.png" horizontal="cherry/Contacts_ListDetails_AddSubscriber_Success.png">
+		<links href="menu" animation="fade" style="top: 6px; left: 5px; width: 41px; height: 30px;"></links>
+	</interface>
+</iPresent>

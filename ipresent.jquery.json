@@ -1,0 +1,28 @@
+{
+    "name": "iPresent",
+    "title": "Mobile mockups presenter",
+    "description": "Present your mobile mockups with style on desktop & mobile phones, creates a prototypes from images",
+    "keywords": [
+        "mockup",
+        "iphone",
+        "presentation",
+        "mobile",
+        "android"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Cedric Dugas",
+        "url": "http://www.position-relative.net"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "bugs": "https://github.com/posabsolute/jQuery-Error-Handler-Plugin/issues",
+    "homepage": "https://www.position-ansolute.com/",
+    "dependencies": {
+        "jquery": ">=1.4"
+    }
+}

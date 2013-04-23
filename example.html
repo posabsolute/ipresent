@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=320, initial-scale=1.05" />
+        <title>Mobile Slide</title>
+
+         <link type="text/css" rel="stylesheet" href="framework/jqtouch.css" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+
+        <script src="framework/jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="framework/jqtouch.js" type="application/x-javascript" charset="utf-8"></script>
+        <script src="framework/ipresent2.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            jQuery(document).ready(function($) {
+                $(document).ipresent({
+                    xml : "yourPresentation.xml"
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="jqt"></div>
+    </body>
+</html>
