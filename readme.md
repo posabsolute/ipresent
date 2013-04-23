@@ -51,6 +51,15 @@ If you have mockups for both screen orientation you can add this option to enabl
 	<!--Do you have images for the horizontal mode? -->
 	<screenOrientationChange mode="false"></screenOrientationChange>
 
+## Limitation
+
+This project was created a couple of years ago and while I refreshed it a bit, it only support an old version of jQtouch and jQuery, be advise.
+
+Mobile Support
+Iphone ios4+
+Android 4+
+
+
 ## License (MIT)
 
 Copyright 2013 Cedric Dugas
