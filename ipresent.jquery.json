@@ -9,7 +9,7 @@
         "mobile",
         "android"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": {
         "name": "Cedric Dugas",
         "url": "http://www.position-relative.net"
@@ -21,7 +21,7 @@
         }
     ],
     "bugs": "https://github.com/posabsolute/ipresent/issues",
-    "homepage": "https://www.position-ansolute.com/",
+    "homepage": "https://www.position-absolute.com/",
     "dependencies": {
         "jquery": ">=1.4"
     }
