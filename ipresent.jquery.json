@@ -1,5 +1,5 @@
 {
-    "name": "iPresent",
+    "name": "ipresent",
     "title": "Mobile mockups presenter",
     "description": "Present your mobile mockups with style on desktop & mobile phones, creates a prototypes from images",
     "keywords": [
@@ -9,7 +9,7 @@
         "mobile",
         "android"
     ],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": {
         "name": "Cedric Dugas",
         "url": "http://www.position-relative.net"
@@ -20,7 +20,7 @@
             "url": "http://opensource.org/licenses/MIT"
         }
     ],
-    "bugs": "https://github.com/posabsolute/jQuery-Error-Handler-Plugin/issues",
+    "bugs": "https://github.com/posabsolute/ipresent/issues",
     "homepage": "https://www.position-ansolute.com/",
     "dependencies": {
         "jquery": ">=1.4"
